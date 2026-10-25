@@ -1,0 +1,28 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: TC-004 scene loads and idle stays still
+PASS: TC-001 physical key 65 direction and speed
+PASS: TC-001 key release stops
+PASS: TC-001 physical key 68 direction and speed
+PASS: TC-001 key release stops
+PASS: TC-001 physical key 87 direction and speed
+PASS: TC-001 key release stops
+PASS: TC-001 physical key 83 direction and speed
+PASS: TC-001 key release stops
+PASS: TC-001 diagonal normalized speed
+PASS: TC-003 unchanged state does not repeat signals
+PASS: TC-001 opposing keys cancel
+PASS: TC-002 obstacle stops player
+PASS: TC-002 slide along obstacle
+PASS: TC-002 boundary 65
+PASS: TC-002 boundary 68
+PASS: TC-002 boundary 87
+PASS: TC-002 boundary 83
+PASS: TC-003 disable movement
+PASS: TC-003 enable movement
+PASS: TC-003 simulated focus loss stops
+PASS: TC-003 simulated focus regain stays idle
+PASS: TC-004 walk and left flip
+PASS: TC-004 idle animation
+PASS: TC-004 right flip
+RESULT: 0 failure(s)

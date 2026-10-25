@@ -1,0 +1,19 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: TC-019 Sfx autoload exists
+PASS: TC-019 Music autoload exists
+PASS: TC-019 all eight sfx registered
+PASS: TC-019 play emits, unknown name safe
+PASS: TC-019 music stream loaded
+PASS: TC-019 music loops
+PASS: TC-019 music is a full track
+PASS: TC-019 summon attack sfx
+PASS: TC-019 enemy death sfx once
+PASS: TC-019 pickup sfx once
+PASS: TC-019 hurt sfx once
+RESULT: 0 failure(s)
+WARNING: unknown sfx: nonexistent_sound
+     at: push_warning (core/variant/variant_utility.cpp:1033)
+     GDScript backtrace (most recent call first):
+         [0] play (res://scripts/autoload/sfx.gd:52)
+         [1] _run (res://tests/audio_test.gd:35)

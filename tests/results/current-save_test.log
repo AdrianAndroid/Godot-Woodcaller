@@ -1,0 +1,12 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: TC-013 first run defaults
+PASS: TC-013 user data directory
+PASS: TC-013 write result
+PASS: TC-013 persisted data reload
+PASS: TC-013 second commit
+PASS: TC-013 max records retained
+PASS: TC-013 corrupt primary restores backup
+PASS: TC-013 recover and save
+PASS: TC-013 reject invalid result
+RESULT: 0 failure(s)

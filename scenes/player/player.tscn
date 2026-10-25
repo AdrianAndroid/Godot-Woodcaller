@@ -1,0 +1,69 @@
+[gd_scene load_steps=9 format=3]
+
+[ext_resource type="Script" path="res://scripts/player/player.gd" id="1_player"]
+
+[ext_resource type="Script" path="res://scripts/combat/health.gd" id="2_health"]
+
+[ext_resource type="Texture2D" path="res://assets/art/player/druid_idle_0.png" id="3_idle0"]
+
+[ext_resource type="Texture2D" path="res://assets/art/player/druid_idle_1.png" id="4_idle1"]
+
+[ext_resource type="Texture2D" path="res://assets/art/player/druid_walk_0.png" id="5_walk0"]
+
+[ext_resource type="Texture2D" path="res://assets/art/player/druid_walk_1.png" id="6_walk1"]
+
+[sub_resource type="CircleShape2D" id="Shape_player"]
+radius = 8.0
+
+[sub_resource type="SpriteFrames" id="Frames_player"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_idle0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_idle1")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_walk0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_walk1")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 6.0
+}]
+
+[node name="Player" type="CharacterBody2D" groups=["player"]]
+collision_layer = 2
+collision_mask = 1
+motion_mode = 1
+script = ExtResource("1_player")
+
+[node name="DebugBody" type="Polygon2D" parent="."]
+visible = false
+polygon = PackedVector2Array(-10, -14, 10, -14, 10, 14, -10, 14)
+color = Color(0.43, 0.56, 0.38, 1)
+
+[node name="DebugFace" type="Polygon2D" parent="DebugBody"]
+polygon = PackedVector2Array(-6, -9, 6, -9, 6, -3, -6, -3)
+color = Color(0.77, 0.74, 0.56, 1)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("Frames_player")
+animation = &"idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 6)
+shape = SubResource("Shape_player")
+
+[node name="Health" type="Node" parent="."]
+script = ExtResource("2_health")
+max_health = 100.0

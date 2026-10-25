@@ -1,0 +1,10 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: TC-014 only one boss
+PASS: TC-014 boss health override
+PASS: TC-014 enrage once at half health
+PASS: TC-014 visible warning before pulse
+PASS: TC-014 moving out dodges pulse
+PASS: TC-014 standing in warning takes damage
+PASS: TC-014 boss death emits victory once
+RESULT: 0 failure(s)

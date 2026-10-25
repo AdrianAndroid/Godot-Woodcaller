@@ -1,0 +1,40 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: TC-018 assets/art directory exists
+PASS: TC-018 license registry exists
+PASS: TC-018 player AnimatedSprite2D exists
+PASS: TC-018 player nearest filter
+PASS: TC-018 player has SpriteFrames
+PASS: TC-018 player animation 'idle' has 32x32 frames
+PASS: TC-018 player animation 'walk' has 32x32 frames
+PASS: TC-018 player debug body hidden
+PASS: TC-018 enemy slime AnimatedSprite2D exists
+PASS: TC-018 enemy slime nearest filter
+PASS: TC-018 enemy slime has SpriteFrames
+PASS: TC-018 enemy slime animation 'idle' has 32x32 frames
+PASS: TC-018 enemy slime animation 'walk' has 32x32 frames
+PASS: TC-018 enemy debug body hidden
+PASS: TC-018 summon wolf AnimatedSprite2D exists
+PASS: TC-018 summon wolf nearest filter
+PASS: TC-018 summon wolf has SpriteFrames
+PASS: TC-018 summon wolf animation 'idle' has 32x32 frames
+PASS: TC-018 summon wolf animation 'walk' has 32x32 frames
+PASS: TC-018 summon debug body hidden
+PASS: TC-018 boss treant AnimatedSprite2D exists
+PASS: TC-018 boss treant nearest filter
+PASS: TC-018 boss treant has SpriteFrames
+PASS: TC-018 boss treant animation 'idle' has 32x32 frames
+PASS: TC-018 boss treant animation 'walk' has 32x32 frames
+PASS: TC-018 boss sprite 2x scale
+PASS: TC-018 boss collision radius
+PASS: TC-018 experience orb AnimatedSprite2D exists
+PASS: TC-018 experience orb nearest filter
+PASS: TC-018 experience orb has SpriteFrames
+PASS: TC-018 experience orb animation 'idle' has 32x32 frames
+PASS: TC-018 orb autoplays pulse
+PASS: TC-018 arena floor sprite
+PASS: TC-018 floor placeholder hidden
+PASS: TC-018 obstacle tree sprite
+PASS: TC-018 obstacle placeholder hidden
+PASS: TC-018 player animation playing
+RESULT: 0 failure(s)

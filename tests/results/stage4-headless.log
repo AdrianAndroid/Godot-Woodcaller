@@ -1,0 +1,15 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: TC-011 negative XP ignored
+PASS: TC-011 multi-level XP accounting
+PASS: TC-011 queued choices pause world
+PASS: TC-011 power applies once
+PASS: TC-011 pending level stays paused
+PASS: TC-011 summon choice completes queue
+PASS: TC-011 new summon inherits power
+PASS: TC-011 duplicate selection ignored
+PASS: TC-011 enemy death creates XP orb
+PASS: TC-011 non-player cannot collect
+PASS: TC-011 one-time collection
+PASS: TC-011 movement upgrade
+RESULT: 0 failure(s)

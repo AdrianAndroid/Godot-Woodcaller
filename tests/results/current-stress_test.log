@@ -1,0 +1,15 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: TC-021 five summons fielded
+PASS: TC-021 swarm at population cap
+INFO: average physics frame 16.23 ms with 115 enemies
+PASS: TC-021 summons kill under load
+PASS: TC-021 orbs drop under load
+PASS: TC-021 population stays within cap
+PASS: TC-021 frame budget holds under load
+PASS: TC-021 run survives swarm
+PASS: TC-021 full duration elapses
+PASS: TC-021 boss arrives after long run
+PASS: TC-021 long run ends in victory
+PASS: TC-021 victory recorded
+RESULT: 0 failure(s)

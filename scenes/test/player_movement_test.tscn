@@ -1,0 +1,74 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/player/player.tscn" id="1_player"]
+
+[ext_resource type="Texture2D" path="res://assets/art/arena/floor.png" id="2_floor"]
+
+[ext_resource type="Texture2D" path="res://assets/art/arena/obstacle_tree.png" id="3_tree"]
+
+[sub_resource type="RectangleShape2D" id="Shape_horizontal"]
+size = Vector2(640, 16)
+
+[sub_resource type="RectangleShape2D" id="Shape_vertical"]
+size = Vector2(16, 328)
+
+[sub_resource type="RectangleShape2D" id="Shape_obstacle"]
+size = Vector2(48, 80)
+
+[node name="PlayerMovementTest" type="Node2D"]
+
+[node name="Floor" type="Polygon2D" parent="."]
+visible = false
+polygon = PackedVector2Array(16, 16, 624, 16, 624, 344, 16, 344)
+color = Color(0.12, 0.16, 0.12, 1)
+
+[node name="FloorSprite" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(320, 180)
+texture = ExtResource("2_floor")
+
+[node name="World" type="StaticBody2D" parent="."]
+collision_layer = 1
+collision_mask = 2
+
+[node name="Top" type="CollisionShape2D" parent="World"]
+position = Vector2(320, 8)
+shape = SubResource("Shape_horizontal")
+
+[node name="Bottom" type="CollisionShape2D" parent="World"]
+position = Vector2(320, 352)
+shape = SubResource("Shape_horizontal")
+
+[node name="Left" type="CollisionShape2D" parent="World"]
+position = Vector2(8, 180)
+shape = SubResource("Shape_vertical")
+
+[node name="Right" type="CollisionShape2D" parent="World"]
+position = Vector2(632, 180)
+shape = SubResource("Shape_vertical")
+
+[node name="Obstacle" type="CollisionShape2D" parent="World"]
+position = Vector2(440, 180)
+shape = SubResource("Shape_obstacle")
+
+[node name="ObstacleVisual" type="Polygon2D" parent="World"]
+visible = false
+polygon = PackedVector2Array(416, 140, 464, 140, 464, 220, 416, 220)
+color = Color(0.28, 0.29, 0.23, 1)
+
+[node name="ObstacleSprite" type="Sprite2D" parent="World"]
+texture_filter = 1
+position = Vector2(440, 180)
+texture = ExtResource("3_tree")
+
+[node name="Player" parent="." instance=ExtResource("1_player")]
+position = Vector2(240, 180)
+
+[node name="Instructions" type="Label" parent="."]
+offset_left = 28.0
+offset_top = 24.0
+offset_right = 400.0
+offset_bottom = 48.0
+theme_override_font_sizes/font_size = 14
+text = "WASD  Move"
+mouse_filter = 2

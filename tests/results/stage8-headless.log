@@ -1,0 +1,16 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: TC-015 upgrade initially paused
+PASS: TC-015 death ends and stops waves
+PASS: TC-015 result supersedes upgrade
+PASS: TC-015 defeat saved once
+PASS: TC-015 duplicate events do not resave
+PASS: TC-015 stale upgrade cannot apply
+PASS: TC-015 restart active and unpaused
+PASS: TC-015 restart resets player and level
+PASS: TC-015 restart clears old entities
+PASS: TC-015 boss kill wins
+PASS: TC-015 victory persisted
+PASS: TC-015 victory UI
+PASS: TC-015 leaving arena clears pause
+RESULT: 0 failure(s)

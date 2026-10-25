@@ -1,0 +1,27 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: TC-020 upgrade pauses and shows panel
+PASS: TC-020 three choices offered
+PASS: TC-020 choices are distinct
+PASS: TC-020 numbered label
+PASS: TC-020 selection resumes world
+PASS: TC-020 power boosts summon damage
+PASS: TC-020 bond adds summon
+PASS: TC-020 new summon inherits power
+PASS: TC-020 swift scales speed
+PASS: TC-020 haste scales interval
+PASS: TC-020 haste applies to summons
+PASS: TC-020 vitality raises max and heals
+PASS: TC-020 reach scales up
+PASS: TC-020 reach applies to summons
+PASS: TC-020 magnet scales up
+PASS: TC-020 magnet widens existing orb
+PASS: TC-020 magnet applies to new orbs
+PASS: TC-020 summon cap reached
+PASS: TC-020 capped upgrades leave pool
+PASS: TC-020 power and vitality always open
+PASS: TC-020 pool smaller than three
+PASS: TC-020 third button hidden
+PASS: TC-020 out-of-range choice rejected
+PASS: TC-020 final choice resumes world
+RESULT: 0 failure(s)

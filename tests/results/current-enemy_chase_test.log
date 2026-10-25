@@ -1,0 +1,25 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: TC-008 no target stays idle
+PASS: TC-007 late player acquisition and speed
+PASS: TC-008 acquisition emits once
+PASS: TC-008 stable state emits no duplicate signals
+PASS: TC-007 follows changed position at diagonal speed
+PASS: TC-007 high speed stops at radius without overshoot
+PASS: TC-007 arrival becomes idle
+PASS: TC-007 coincident target is safe
+PASS: TC-008 disable movement
+PASS: TC-008 reenable movement
+PASS: TC-008 freed target clears safely and emits once
+PASS: TC-008 replacement acquired
+PASS: TC-009 obstacle blocks pursuit
+PASS: TC-009 slides along obstacle
+PASS: TC-009 world boundary blocks pursuit
+PASS: TC-009 walk animation and left facing
+PASS: TC-009 right facing
+PASS: TC-009 idle animation
+PASS: TC-009 demo contains three active enemies
+PASS: TC-009 demo enemy pursues
+PASS: TC-009 demo enemy pursues
+PASS: TC-009 demo enemy pursues
+RESULT: 0 failure(s)

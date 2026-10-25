@@ -1,0 +1,11 @@
+[gd_scene load_steps=5 format=3]
+[ext_resource type="PackedScene" path="res://scenes/test/summon_test.tscn" id="1"]
+[ext_resource type="Script" path="res://scripts/game/arena.gd" id="2"]
+[ext_resource type="Script" path="res://scripts/progression/progression.gd" id="3"]
+[ext_resource type="Script" path="res://scripts/ui/run_ui.gd" id="4"]
+[node name="Arena" instance=ExtResource("1")]
+script = ExtResource("2")
+[node name="Progression" type="Node" parent="."]
+script = ExtResource("3")
+[node name="RunUI" type="CanvasLayer" parent="."]
+script = ExtResource("4")

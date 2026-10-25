@@ -1,0 +1,9 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: TC-016 start button exists
+PASS: TC-016 fresh records displayed
+PASS: TC-016 start creates arena once
+PASS: TC-016 result is accessible
+PASS: TC-016 return to unpaused menu
+PASS: TC-016 menu reflects saved result
+RESULT: 0 failure(s)
